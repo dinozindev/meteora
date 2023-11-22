@@ -1,0 +1,32 @@
+:root {
+    --green-yellow: #daff01;
+    --purple-btn: #9353ff;
+}
+
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.btn-vermais {
+    background-color: var(--purple-btn);
+}
+
+
+.green-yellow {
+    color: var(--green-yellow);
+}
+
+@media(min-width:768px) {
+   .div-novidades {
+    width: 696px;
+} 
+}
